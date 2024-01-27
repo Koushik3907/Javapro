@@ -6,7 +6,9 @@ public class Arraylist2 {
 public static void main(String[] args) {
 	ArrayList<Integer> n = new ArrayList<>();
 	n.add(10);
+	n.add(90);
 	n.add(9);
+	n.remove(1);
 	for(int i =0;i<2;i++) {
 		System.out.println(n.get(i));
 	}
