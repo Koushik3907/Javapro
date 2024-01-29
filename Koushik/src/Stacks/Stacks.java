@@ -34,7 +34,6 @@ public static void main(String[] args) {
 	default:
 		System.out.println("Invalid Entry");
 	}
-	
 	}
 }
 }
